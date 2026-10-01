@@ -6,9 +6,9 @@
     <link href="./src/output.css" rel="stylesheet" />
   </head>
   <body>
-    <header  class="p-[30px_80px] flex items-center justify-between">
+    <header class="p-6 lg:p-[30px_80px] flex flex-col lg:flex-row items-center justify-between gap-4">
       <img src="./images/logo.svg" alt="" />
-      <div class="text-[18px] text-[#72727E] font-[350px] flex gap-[50px]">
+      <div class="text-[18px] text-[#72727E] font-[350px] flex flex-wrap justify-center gap-6 lg:gap-[50px]">
         <p>Как использовать</p>
         <p>Партнерам</p>
         <p>Скачать</p>
@@ -21,33 +21,33 @@
       </button>
     </header>
 
-    <section class="flex justify-between p-[30px_80px]">
-      <div class="p-[30px_80px]">
-        <h1 class="text-[#141B41] text-[30px] font-bold">
+    <section class="flex flex-col-reverse lg:flex-row justify-between p-6 lg:p-[30px_80px] items-center">
+      <div class="p-0 lg:p-[30px_80px]">
+        <h1 class="text-[#141B41] text-[24px] lg:text-[30px] font-bold">
           Поиск ближайшей свободной <br />
           автомойки и бронирование<br />на удобное время.
           <img class="inline-block w-[90px]" src="./images/arrow.svg" alt="" />
         </h1>
-        <p class="text-[#72727E] text-[18px]">
+        <p class="text-[#72727E] text-[16px] lg:text-[18px]">
           Мы поможем сохранить ваше время для более <br />
           интересных занятий, чем стоять в очереди.
         </p>
         <button
-          class="w-[240px] h-[60px] text-[18px] text-white bg-[rgba(68,109,246,1)] rounded-[6px] mt-[50px]"
+          class="w-[240px] h-[60px] text-[18px] text-white bg-[rgba(68,109,246,1)] rounded-[6px] mt-[30px] lg:mt-[50px]"
         >
           Получить доступ
         </button>
       </div>
-      <img class="w-[50%]" src="./images/image1.svg" alt="" />
+      <img class="w-full lg:w-[50%]" src="./images/image1.svg" alt="" />
     </section>
 
-    <section class="flex p-[30px_80px] justify-center gap-[100px]">
-      <img src="./images/tel1.svg" alt="" />
+    <section class="flex flex-col lg:flex-row p-6 lg:p-[30px_80px] justify-center items-center gap-8 lg:gap-[100px]">
+      <img src="./images/tel1.svg" alt="" class="w-[280px] lg:w-auto" />
       <div>
-        <p class="text-[rgba(20,27,65,1)] text-[40px] font-bold">
+        <p class="text-[rgba(20,27,65,1)] text-[30px] lg:text-[40px] font-bold">
           Быстрый старт:
         </p>
-        <div class="flex items-center pt-[50px] gap-[20px]">
+        <div class="flex items-center pt-[30px] lg:pt-[50px] gap-[20px]">
           <div>
             <img src="./images/iconser1.svg" alt="" />
             <img
@@ -57,14 +57,14 @@
             />
           </div>
           <div class="mt-[-25px]">
-            <h1 class="text-[rgba(20,27,65,1)] text-[24px] font-medium">
+            <h1 class="text-[rgba(20,27,65,1)] text-[20px] lg:text-[24px] font-medium">
               Скачай и зарегистрируйся
             </h1>
             <p>Наше приложение доступно в Apple Store и Google Play</p>
           </div>
         </div>
         <!--  -->
-        <div class="flex items-center pt-[50px] gap-[20px]">
+        <div class="flex items-center pt-[30px] lg:pt-[50px] gap-[20px]">
           <div>
             <img src="./images/iconser1.svg" alt="" />
             <img
@@ -74,14 +74,14 @@
             />
           </div>
           <div class="mt-[-25px]">
-            <h1 class="text-[rgba(20,27,65,1)] text-[24px] font-medium">
+            <h1 class="text-[rgba(20,27,65,1)] text-[20px] lg:text-[24px] font-medium">
               Выбери ближайшую автомойку
             </h1>
             <p>Из свободных поблизости или оставь заказ на удобное время</p>
           </div>
         </div>
         <!--  -->
-        <div class="flex items-center pt-[50px] gap-[20px]">
+        <div class="flex items-center pt-[30px] lg:pt-[50px] gap-[20px]">
           <div>
             <img src="./images/iconser1.svg" alt="" />
             <img
@@ -91,14 +91,14 @@
             />
           </div>
           <div class="mt-[-25px]">
-            <h1 class="text-[rgba(20,27,65,1)] text-[24px] font-medium">
+            <h1 class="text-[rgba(20,27,65,1)] text-[20px] lg:text-[24px] font-medium">
               Выбери дополнительные услугия
             </h1>
             <p>Можешь их добавить к своему основному заказу</p>
           </div>
         </div>
         <!--  -->
-        <div class="flex items-center pt-[50px] gap-[20px]">
+        <div class="flex items-center pt-[30px] lg:pt-[50px] gap-[20px]">
           <div>
             <img src="./images/iconser1.svg" alt="" />
             <img
@@ -108,7 +108,7 @@
             />
           </div>
           <div class="mt-[-25px]">
-            <h1 class="text-[rgba(20,27,65,1)] text-[24px] font-medium">
+            <h1 class="text-[rgba(20,27,65,1)] text-[20px] lg:text-[24px] font-medium">
               Оплати внутри приложения
             </h1>
             <p>Бесконтактная оплата внутри приложения и прозрачные цены</p>
@@ -116,5 +116,147 @@
         </div>
       </div>
     </section>
+
+    <section class="max-w-[1170px] mx-auto py-10 px-4 text-center">
+      <div class="mb-10">
+        <h2 class="text-[24px] lg:text-[32px] font-bold text-[#1E293B] mb-3">
+          Стань нашим партнером и начни зарабатывать:
+        </h2>
+        <p class="text-gray-500 text-[14px] lg:text-[15px] max-w-[800px] mx-auto leading-relaxed">
+          Автоматизируй свой бизнес вместе с нами. Подключись к нашей системе бронирования, чтобы получать новых клиентов и распределить нагрузку равномерно на весь день. Мы предоставляем удобные инструменты для формирования отчетов в несколько кликов и многое другое.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-5 gap-4 mb-10">
+        <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 flex flex-col items-center justify-center text-center">
+          <div class="w-12 h-12 rounded-xl bg-[#F0F5FF] flex items-center justify-center mb-3">
+            <img src="./images/logo 1.svg" alt="Иконка" class="w-6 h-6">
+          </div>
+          <p class="text-[14px] font-medium text-[#1E293B]">
+            Просматривайте <br> историю заказа
+          </p>
+        </div>
+
+        <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 flex flex-col items-center justify-center text-center">
+          <div class="w-12 h-12 rounded-xl bg-[#F0F5FF] flex items-center justify-center mb-3">
+            <img src="./images/logo 2.svg" alt="Иконка" class="w-6 h-6">
+          </div>
+          <p class="text-[14px] font-medium text-[#1E293B]">
+            Создание отчета <br> неделя/месяц/год
+          </p>
+        </div>
+
+        <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 flex flex-col items-center justify-center text-center">
+          <div class="w-12 h-12 rounded-xl bg-[#F0F5FF] flex items-center justify-center mb-3">
+            <img src="./images/logo3.svg" alt="Иконка" class="w-6 h-6">
+          </div>
+          <p class="text-[14px] font-medium text-[#1E293B]">
+            Обратная связь <br> от клиентов
+          </p>
+        </div>
+
+        <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 flex flex-col items-center justify-center text-center">
+          <div class="w-12 h-12 rounded-xl bg-[#F0F5FF] flex items-center justify-center mb-3">
+            <img src="./images/logo4.svg" alt="Иконка" class="w-6 h-6">
+          </div>
+          <p class="text-[14px] font-medium text-[#1E293B]">
+            Контроль качества <br> работы сотрудников
+          </p>
+        </div>
+
+        <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 flex flex-col items-center justify-center text-center">
+          <div class="w-12 h-12 rounded-xl bg-[#F0F5FF] flex items-center justify-center mb-3">
+            <img src="./images/logo5.svg" alt="Иконка" class="w-6 h-6">
+          </div>
+          <p class="text-[14px] font-medium text-[#1E293B]">
+            Бесконтактная <br> оплата работы
+          </p>
+        </div>
+      </div>
+
+      <button class="bg-[#4D7CFF] hover:bg-blue-600 text-white font-medium px-8 py-3.5 rounded-xl transition-colors">
+        Стать партнером
+      </button>
+    </section>
+
+    <section class="max-w-[1170px] mx-auto my-16 px-4">
+      <div class="bg-[#4D7CFF] rounded-[24px] p-8 lg:p-14 relative flex flex-col lg:flex-row items-center justify-between min-h-[360px] overflow-visible">
+        <div class="max-w-[480px] text-white z-10 text-center lg:text-left mb-8 lg:mb-0">
+          <h1 class="text-[20px] lg:text-[32px] font-bold leading-tight mb-4">
+            Хватит тратить свое <br> время в очередях
+          </h1>
+          <p class="text-white/80 text-[15px] lg:text-[16px] mb-8">
+            Приложение скоро будет доступно для бета <br> 
+            тестирования в AppStore и Google Play
+          </p>
+          
+          <div class="flex justify-center lg:justify-start gap-[20px] lg:gap-[40px]">
+            <img src="./images/iphone.svg" alt="">
+            <img src="./images/googleplay.svg" alt="">
+          </div>
+        </div>
+
+        <div class="relative w-full lg:w-[500px] h-[200px] lg:h-[300px] flex justify-center">
+          <img 
+            src="./images/telefonho.svg" 
+            alt="telpusht" 
+            class="absolute -top-[60px] lg:-top-[110px] w-[300px] lg:w-[522px] max-w-none z-10"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="max-w-[1170px] mx-auto my-16 px-4">
+      <div class="flex flex-col lg:flex-row justify-between items-start gap-8 mb-8">
+        <div class="max-w-[600px]">
+          <h2 class="text-[28px] lg:text-[40px] font-bold text-[#141B41] mb-4">
+            Отзывы о приложении
+          </h2>
+          
+          <p class="text-[#72727E] text-[15px] lg:text-[16px] leading-relaxed mb-8">
+            Таким образом консультация с широким активом влечет за собой процесс внедрения и модернизации направлений прогрессивного развития. Разнообразный и богатый опыт сложившаяся структура организации обеспечивает широкому кругу (специалистов) участие в формировании модели развития.
+          </p>
+
+          <div class="flex items-center gap-4">
+            <img 
+              src="./images/johnDoe.svg" 
+              alt="John Doe" 
+              class="w-14 h-14 rounded-full object-cover"
+            />
+            <div>
+              <h4 class="text-[18px] font-bold text-[#141B41]">John Doe</h4>
+              <p class="text-[#72727E] text-[14px]">Водитель</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex gap-3 self-center lg:self-start">
+          <div class="flex items-center justify-center">
+            <img src="./images/strelkaCHAP.svg" alt="strelkaCHAP" class="w-10 h-10 lg:mt-[50px]">
+          </div>
+          <div class="flex items-center justify-center">
+            <img src="./images/strelkaROST.svg" alt="strelkaROST" class="w-10 h-10 lg:mt-[50px]">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-[#141B41] text-white py-6 px-4">
+      <div class="max-w-[1170px] mx-auto flex flex-col lg:flex-row items-center justify-between gap-6">
+        <img src="./images/getwash.svg" alt="getwash">
+
+        <div class="flex flex-wrap justify-center gap-6 lg:gap-10 text-[15px] text-gray-300">
+          <p>Как использовать</p>
+          <p>Партнерам</p>
+          <p>Скачать</p>
+          <p>Отзывы</p>
+        </div>
+
+        <button class="border border-gray-500 hover:border-white px-6 py-2.5 rounded-lg text-[14px] font-medium">
+          Получить доступ
+        </button>
+
+      </div>
+    </footer>
   </body>
 </html>
